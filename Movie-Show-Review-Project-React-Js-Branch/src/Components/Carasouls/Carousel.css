@@ -1,0 +1,83 @@
+.carousel{
+    color: #DDF8FE;
+    position: relative;
+    margin-bottom: 200px;
+
+}
+.card{
+    position: relative;
+    padding-left: 12px;
+    max-width: 280px;
+    min-width: 280px;
+    min-height: 500px;
+    max-height: 500px;
+}
+.c1,.c3{
+
+    background: linear-gradient(#e66465, #9198e5);
+}
+.c5,.c7 {
+    background: radial-gradient(#76b2fe, #b69efe);
+  }
+.c2,.c4{
+
+    background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+}
+.c6,.c8{
+    background: radial-gradient(#60efbc, #58d5c9);
+}
+.card-img{
+    max-width: 240px;
+    min-width: 240px; 
+    min-height: 350px;
+    max-height: 350px;
+    padding-bottom: 20px;
+}
+.card-titles{
+    position: relative;
+    color: black;
+    display: block;
+    padding-bottom: 12px;
+    margin-bottom: 0px;
+    min-height: 38px;
+    max-height: 38px;
+    font-style: italic;
+}
+.card-btn{
+    position: relative;
+    margin-top: 15px;
+    justify-content: center;
+    margin-bottom: 1px;
+}
+.title{
+    transition: 0.5s;
+    opacity: 0.8;
+    font-weight: bold;
+    font-size: 34px;
+    color: #fb982f;
+    margin-bottom: 3rem;
+}
+.title:hover{
+    transition: 0.4s;
+    opacity: 3;
+    color: violet;
+
+}
+
+@media screen and (max-width: 395px) {
+
+    /* the parent */
+    .card-slider {
+        margin: 0 -20px;
+    }
+    
+}
+@media screen and (max-width: 385px) {
+ 
+    /* the parent */
+    .card-slider {
+        margin: 0 -26px;
+    }
+    
+}
+

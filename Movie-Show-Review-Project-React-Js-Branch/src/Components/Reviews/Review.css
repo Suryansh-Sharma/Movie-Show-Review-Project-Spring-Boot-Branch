@@ -1,0 +1,15 @@
+.reviewSectionTitle{
+    color: aliceblue;
+    text-align: center;
+    font-style: italic;
+}
+.review-section-for{
+    background: #fbfbfb;
+    box-shadow: #e6e6e6 0 0 4px;
+    border-radius: 0.25rem;
+}
+.review-form-check{
+    position: relative;
+    left: 0;
+    margin: 0;
+}

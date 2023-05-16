@@ -1,0 +1,40 @@
+serverPort: "http://192.168.0.192:8080/"
+spring:
+  config:
+    import: secrets.yml
+  profiles:
+    active: development
+  thymeleaf:
+    enabled: true
+    prefix: classpath:/templates/
+    suffix: .html
+    mode: HTML
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+  main:
+    allow-circular-references: true
+  mvc:
+    pathmatch:
+      matching-strategy: ANT_PATH_MATCHER
+  servlet:
+    multipart:
+      enabled: true
+      file-size-threshold: 2KB
+      max-file-size: 10MB
+      max-request-size: 10MB
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+      base-path: "/actuator"
+
+
+# Jpa Page Size.
+jpaPaginationSize: 6
+# User profile image store path
+imageFolderPath: "/home/suryansh/Desktop/Movie-Show-Review-Project-Spring-Boot-Branch/SpringRestApi/My-Movie-Review-App/src/main/resources/images"

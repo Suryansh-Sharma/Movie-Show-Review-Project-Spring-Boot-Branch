@@ -1,0 +1,65 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .account-verification-top {
+    text-align: center;
+  }
+  
+  .account-verification-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .account-verification-middle {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .account-verification-middle p {
+    margin: 5px 0;
+  }
+  
+  .account-verification-middle2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .avm2-text {
+    margin: 5px 0;
+  }
+  
+  .resend-text {
+    cursor: pointer;
+    color: blue;
+  }
+  
+  .account-verification-bottom {
+    text-align: center;
+  }
+  
+  .continue-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  @media screen and (max-width: 480px) {
+    .account-verification-title {
+      font-size: 20px;
+    }
+  
+    .resend-text {
+      font-size: 14px;
+    }
+  
+    .continue-button {
+      font-size: 14px;
+    }
+  }

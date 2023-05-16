@@ -1,0 +1,122 @@
+.Movie{
+    margin-top: 14vh;
+    position: relative;
+    margin-bottom: 14vh;
+    box-sizing: border-box;
+}
+.Movie-title{
+    position: relative;
+    color: orange;
+    text-align: center;
+    font-size: 60px;
+    font-style: oblique;
+}
+.Movie-Cards{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-top: 7rem;
+}
+.Card{
+    position: relative;
+    margin-left: 150px;
+    margin-right: 12px;
+    max-width: 200px;
+    margin-bottom:12rem ;
+}
+
+.Card-title{
+    position: relative;
+    color: #0199ee;
+    left: 30px;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+.Card-img{
+    position: relative;
+    left: 10px;
+    max-width: 230px;
+    cursor: pointer;
+    min-width: 230px;
+    max-height: 29px;
+    min-height: 295px;
+    border-radius: 12px;
+}
+.Card-img:hover{
+    transition: 0.5s;
+    opacity: 0.8;
+}
+.Movie-Paging{
+    border-top: 1px solid skyblue;
+    color: aliceblue;
+    margin-top: 16vh;
+    text-align: center;
+    margin-bottom: 40vh;
+}
+.Movie-Paging-Prev{
+    position: relative;
+    top: 42px;
+    font-size: 32px;
+    left: -182px;
+    padding-bottom: 12px;
+}
+.Movie-Paging-Prev:hover{
+    transition: 1s;
+    cursor: pointer;
+    color: magenta;
+}
+.Movie-Paging-Curr{
+    position: relative;
+    top: 42px;
+    cursor: alias ;
+    font-size: 22px;
+    font-style: italic;
+}
+.Movie-Paging-Next{
+    position: relative;
+    top: 42px;
+    font-size: 32px;
+    left: 182px;
+    padding-bottom: 12px;
+}
+.Movie-Paging-Next:hover{
+    transition: 1s;
+    cursor: pointer;
+    color: magenta;
+}
+@media screen and (max-width: 480px){
+    .Card{
+        left: -140px;
+    }
+    .Movie-Paging{
+        transform: scale(1.2);
+    }
+    .Movie-Paging-Prev{
+        left: 80px;
+        display: flex;
+        font-size: 19px;
+    }
+    .Movie-Paging-Next{
+        margin-top: 1rem;
+        left: 80px;
+        display: flex;
+        font-size: 19px;
+    }
+    .Movie-Paging-Curr{
+        display: flex;
+        left: 80px;
+        color: #fb982f;
+    }
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    .Card{
+        left: -100px;
+        margin-right: -12px;
+    }
+    .Movie-Paging-Prev{
+        left: -80px;
+    }
+    .Movie-Paging-Next{
+        left: 80px;
+    }
+}

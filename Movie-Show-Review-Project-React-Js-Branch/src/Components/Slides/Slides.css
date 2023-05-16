@@ -1,0 +1,33 @@
+.container-slider{
+    margin-top: 2vh;
+    margin-bottom: 12px;
+    position: relative;
+    padding: 12px;
+    transition: 0.4s;
+    cursor: pointer;
+}
+.slider-image {
+    object-fit: fill;
+    max-height: 600px;
+    min-height: 600px;
+    border-radius: 12px;
+    max-width: 1300px;
+}
+@media screen and (max-width: 480px)  {
+    .slider-image{
+        position: relative;
+        min-height: 300px;
+        max-height: 300px;
+        max-width: 360px;
+    }
+
+}
+@media screen and (max-width: 380px)  {
+    .slider-image{
+        position: relative;
+        min-height: 300px;
+        max-height: 300px;
+        max-width: 280px;
+    }
+
+}

@@ -1,0 +1,180 @@
+{
+  "id": 45709387,
+  "adult": true,
+  "backdropPath": "tempor voluptate Lorem elit cillum",
+  "belongsToCollection": {
+    "name": "qui sed",
+    "posterPath": "dolor ullamco aute adipisicing ipsum",
+    "backdropPath": "dolor",
+    "movie": {
+      "id": 94795173,
+      "adult": true,
+      "backdropPath": "sit commodo",
+      "belongsToCollection": {
+        "id": -80614059,
+        "name": "in adipisicing",
+        "posterPath": "irure officia cillum aliq",
+        "backdropPath": "nostrud consectetur",
+        "movie": {
+          "value": "<Circular reference to #/components/schemas/Movie detected>"
+        }
+      },
+      "budget": 21721443,
+      "genres": [
+        {
+          "id": -80234351,
+          "name": "minim veniam"
+        },
+        {
+          "id": -42122502,
+          "name": "ea sint"
+        }
+      ],
+      "homepage": "cupidatat est",
+      "imdbId": "in ut aliquip cupidatat",
+      "originalLanguage": "elit ad do cupidatat",
+      "originalTitle": "esse aliqua sed",
+      "overview": "dolor in aute reprehenderit nisi",
+      "popularity": -11352830.764500469,
+      "posterPath": "id labore deserunt",
+      "productionCompanies": [
+        {
+          "id": 47018731,
+          "logo_path": "laborum labore",
+          "name": "in mollit nostrud tempor nisi",
+          "origin_country": "aliqua velit"
+        },
+        {
+          "id": -54761047,
+          "logo_path": "aliqua Ut enim",
+          "name": "aute dolore irure",
+          "origin_country": "quis deserunt fugiat veniam aliqua"
+        }
+      ],
+      "releaseDate": "qui sit",
+      "revenue": 44288869,
+      "runtime": 61171733,
+      "spokenLanguages": [
+        {
+          "english_name": "Excepteur ea in",
+          "iso_639_1": "laboris ex in consequat aliquip",
+          "name": "Lorem dolor"
+        },
+        {
+          "english_name": "proident cillum",
+          "iso_639_1": "consequat Lorem",
+          "name": "eu nostrud ex voluptate pariatur"
+        }
+      ],
+      "status": "dolore",
+      "tagline": "sint do proident",
+      "title": "dolor cupidatat ullamco enim",
+      "video": false,
+      "voteAverage": 94984060.47697136,
+      "voteCount": 21780086,
+      "movieCast": [
+        {
+          "id": 71263767,
+          "name": "consequat elit quis",
+          "profilePath": "culpa labore",
+          "character": "elit",
+          "person": {
+            "value": "<Error: Too many levels of nesting to fake this schema>"
+          },
+          "movie": {
+            "value": "<Circular reference to #/components/schemas/Movie detected>"
+          }
+        },
+        {
+          "id": -88773228,
+          "name": "aute voluptate reprehenderit ut",
+          "profilePath": "nostrud",
+          "character": "tempor dolore mollit commodo",
+          "person": {
+            "value": "<Error: Too many levels of nesting to fake this schema>"
+          },
+          "movie": {
+            "value": "<Circular reference to #/components/schemas/Movie detected>"
+          }
+        }
+      ],
+      "comments": [
+        {
+          "id": -81770140,
+          "userName": "pariatur sed et",
+          "userPic": "culpa sunt",
+          "note": "eu Duis ex sint",
+          "dateOfComment": "1985-05-14T12:01:52.388Z",
+          "movie": {
+            "value": "<Circular reference to #/components/schemas/Movie detected>"
+          }
+        },
+        {
+          "id": 51625089,
+          "userName": "aute aliqua qui esse",
+          "userPic": "Ut sed Excepteur officia",
+          "note": "eu in nulla",
+          "dateOfComment": "1964-11-24T04:44:24.771Z",
+          "movie": {
+            "value": "<Circular reference to #/components/schemas/Movie detected>"
+          }
+        }
+      ]
+    }
+  },
+  "budget": 33886476,
+  "genres": [
+    {
+      "id": 19811505,
+      "name": "ut voluptate qui eu pariatur"
+    },
+    {
+      "id": 62314099,
+      "name": "quis dolore sit laboris"
+    }
+  ],
+  "homepage": "dolore et cupidatat nisi",
+  "imdbId": "reprehenderit Duis consectetur",
+  "originalLanguage": "pariatur elit",
+  "originalTitle": "ex in laborum aute",
+  "overview": "proident Lorem",
+  "popularity": 29800508.11793445,
+  "posterPath": "laboris ex",
+  "productionCompanies": [
+    {
+      "id": -85738413,
+      "logoPath": "adipisicing laboris id ea",
+      "name": "irure elit Duis",
+      "originCountry": "sint anim se"
+    },
+    {
+      "id": -66842968,
+      "logoPath": "ullamco labore minim",
+      "name": "do",
+      "originCountry": "ex aute consequat aliqua"
+    }
+  ],
+  "releaseDate": "reprehenderit pariatur vo",
+  "revenue": -79134659,
+  "runtime": -20177894,
+  "spokenLanguages": [
+    {
+      "id": 62385480,
+      "englishName": "Ut",
+      "iso_639_1": "enim magna anim",
+      "name": "ex consectetur quis occaecat sunt"
+    },
+    {
+      "id": -61843408,
+      "englishName": "fugiat Ut",
+      "iso_639_1": "enim aute ea",
+      "name": "enim adipisicing sit sunt"
+    }
+  ],
+  "status": "ad officia nisi",
+  "tagline": "esse",
+  "title": "tempor",
+  "video": true,
+  "voteAverage": 64032038.48731595,
+  "voteCount": 7059644
+}
