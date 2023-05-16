@@ -8,14 +8,17 @@ Features
     User Registration and Authentication: Users can create an account, log in, and log out securely using Spring Security.
     Movie Reviews: Users can submit reviews for movies, including a rating and text-based feedback.
     Review Aggregation: The system calculates average ratings, summarizes review statistics, and generates overall scores for movies.
-    Sentiment Analysis: Reviews are analyzed to determine sentiment (positive, negative, or neutral) and extract key features.
     Personalized Recommendations: The recommendation engine suggests movies based on user preferences, previous reviews, and movie attributes.
     OpenAPI Documentation: The API endpoints are documented using OpenAPI to facilitate integration and development.
     Persistent Storage: PostgreSQL is used as the database to store movie reviews, user information, and other relevant data.
 
 Prerequisites
 
-Before running the application, ensure that you have the following prerequisites installed:
+Before running the application, ensure that you have the following prerequisites 
+
+Database Data : YOu can restore data through file Movie-Review-Postgres-Backup.sql
+
+installed:
 
     Node.js and npm: Download and Install Node.js
     Java Development Kit (JDK): Download and Install JDK
@@ -27,7 +30,7 @@ Installation
 
     bash
 
-git clone https://github.com/your-username/movie-review-system.git
+git clone https://github.com/Suryansh-Sharma/Movie-Show-Review-Project-Spring-Boot-Branch.git
 
 Frontend Setup:
 
@@ -45,7 +48,9 @@ Start the frontend server:
 
 sql
 
-        npm start
+    npm start
+
+server-port : You can set baseurl and port no of api  in : src/context/Context.js . By default use can use localhost:8080/
 
     Backend Setup:
         Import the project in your favorite IDE (e.g., IntelliJ, Eclipse).

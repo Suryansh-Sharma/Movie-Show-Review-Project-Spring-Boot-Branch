@@ -315,7 +315,7 @@ const Upload = () => {
                         />
                     </div>
                 </div>
-                 {/*Actor Name Section.*/}
+                {/*Actor Name Section.*/}
                 <div className="form-row text-light">
                     <div className="form-group col-mid-3">
                         <label htmlFor="inputDescription">Actor's Name</label>

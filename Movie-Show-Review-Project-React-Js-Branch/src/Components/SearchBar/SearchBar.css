@@ -8,15 +8,17 @@
     flex-direction: column;
     align-items: center;
 
-    caret-color:navy; 
+    caret-color: navy;
 }
 
-.search-container{
+.search-container {
     width: 620px;
 }
-.seach-input-bar{
+
+.seach-input-bar {
     padding: 5px;
 }
+
 .dropdown {
     margin-top: 20px;
     color: aliceblue;
@@ -28,14 +30,14 @@
     width: 100%;
     overflow: hidden;
     padding: 10px;
-  }
-  
-  .dropdown:empty {
+}
+
+.dropdown:empty {
     border: none;
     background-color: black;
-  }
-  
-  .dropdown-row {
+}
+
+.dropdown-row {
     margin-bottom: 8px;
     cursor: pointer;
     display: flex;
@@ -44,30 +46,30 @@
     padding: 4px;
     border-bottom: 1px solid aliceblue;
     transition: background-color 0.2s;
-  }
-  
-  .dropdown-row:hover {
+}
+
+.dropdown-row:hover {
     background-color: #444;
-  }
-  
-  .movie-name {
+}
+
+.movie-name {
     flex: 1;
     text-align: left;
     font-size: 16px;
     font-weight: bold;
     padding-right: 8px;
-  }
-  
-  .genres {
+}
+
+.genres {
     flex: 1;
     text-align: right;
     font-size: 14px;
     opacity: 0.8;
-  }
-  
-  .genres span {
+}
+
+.genres span {
     margin-left: 8px;
-  }
+}
 
 input {
     width: 780px;
@@ -80,14 +82,17 @@ input {
 .search-inner {
     display: flex;
 }
-.button{
+
+.button {
     margin-left: 12px;
 }
+
 @media screen and (max-width: 480px) {
     .button {
         display: none;
     }
-    .search-container{
+
+    .search-container {
         width: 320px;
     }
 }

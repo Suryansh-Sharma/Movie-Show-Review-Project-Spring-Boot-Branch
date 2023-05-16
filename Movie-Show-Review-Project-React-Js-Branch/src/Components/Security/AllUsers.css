@@ -1,18 +1,22 @@
-.All-Users-Page{
-    
+.All-Users-Page {
+
 }
-.All-Users-Page{
+
+.All-Users-Page {
     display: block;
     font-style: italic;
 }
-.All-Users-Page-Header{
+
+.All-Users-Page-Header {
     color: aliceblue;
     display: flex;
     flex-direction: column;
 }
-.All-Users-Data{
+
+.All-Users-Data {
     margin-top: 20px;
 }
+
 .user-card {
     margin: 10px;
     display: flex;
@@ -23,11 +27,13 @@
 .user-card__avatar {
     margin-right: 12px;
 }
+
 .user-card__avatar__image {
     max-width: 100px;
     max-height: 100px;
-    
+
 }
+
 .user-card__details {
     display: flex;
     align-items: center;
@@ -44,7 +50,8 @@
     font-size: 14px;
     color: gray;
 }
-.user-card__last{
+
+.user-card__last {
     cursor: pointer;
     color: azure;
     display: flex;

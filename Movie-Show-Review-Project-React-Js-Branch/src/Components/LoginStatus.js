@@ -1,2 +1,2 @@
-const LogStatus=false;
+const LogStatus = false;
 export default LogStatus;

@@ -4,8 +4,9 @@
     margin: -0.5rem -3.5rem;
     position: relative;
     margin-top: 27rem;
-  }
-  .f-content {
+}
+
+.f-content {
     position: absolute;
     display: flex;
     align-items: center;
@@ -15,13 +16,15 @@
     margin-top: 4rem;
     gap: 4rem;
     color: white;
-  }
-  .f-icons {
+}
+
+.f-icons {
     display: flex;
     gap: 2rem;
-  }
-  @media screen and (max-width: 480px){
-    .f-content{
-      transform: scale(.5);
+}
+
+@media screen and (max-width: 480px) {
+    .f-content {
+        transform: scale(.5);
     }
-  }
+}

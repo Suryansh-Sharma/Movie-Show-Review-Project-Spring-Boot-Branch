@@ -1,49 +1,58 @@
-.loginPage{
+.loginPage {
     caret-color: black;
     margin-bottom: -280px;
 }
-.pageTitle{
+
+.pageTitle {
     text-align: center;
     color: orange;
     margin-bottom: 30px;
     font-family: cursive;
 }
-label{
+
+label {
     color: aliceblue;
 }
-.redicetUrl{
+
+.redicetUrl {
     color: skyblue;
     cursor: pointer;
 }
-.formError{
+
+.formError {
     color: red;
 }
 
-@media screen and (min-width:1080px) {
-    .loginForm{
+@media screen and (min-width: 1080px) {
+    .loginForm {
         position: relative;
         width: 40%;
     }
+
     .emailLogin {
         position: relative;
         left: 480px;
     }
-    .userName{
+
+    .userName {
         position: relative;
         left: 480px;
     }
-    .passwordLogin{
+
+    .passwordLogin {
         position: relative;
-        left: 480px; 
+        left: 480px;
     }
-    .buttonLogin{
+
+    .buttonLogin {
         position: relative;
         width: 140px;
         left: 600px;
     }
-    .redicetUrl{
+
+    .redicetUrl {
         position: relative;
-        left: 860px; 
+        left: 860px;
     }
 
 }
